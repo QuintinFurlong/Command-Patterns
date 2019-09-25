@@ -9,6 +9,7 @@ int main()
 	inputHandler.assignInput();
 	while (true)
 	{	
+
 		inputHandler.handleInput();
 		//cout << getchar();
 		if (GetKeyState('Q') & 0x8000)

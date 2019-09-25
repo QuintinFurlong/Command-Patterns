@@ -16,6 +16,7 @@ void InputHandler::handleInput()
 	if (GetKeyState('Q') & 0x8000)
 	{
 		buttonQ->execute();
+
 	}
 	else if (GetKeyState('W') & 0x8000)
 	{
@@ -36,5 +37,9 @@ void InputHandler::handleInput()
 	else if (GetKeyState('Y') & 0x8000)
 	{
 		buttonY->execute();
+	}
+	else if (GetAsyncKeyState(VK_BACK))
+	{
+		buttonQ->undo();
 	}
 }

@@ -7,6 +7,7 @@ class Command
 public:
 	virtual ~Command() {}
 	virtual void execute() = 0;
+	virtual void undo() { cout << "\b" << " " << "\b";}
 protected:
 	Command() {};
 };
