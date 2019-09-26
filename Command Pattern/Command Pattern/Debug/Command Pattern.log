@@ -1,5 +1,3 @@
-﻿  InputHandler.cpp
-  MacroCommand.cpp
-  Main.cpp
-  Generating Code...
+﻿  MacroCommand.cpp
+C:\Users\Quintin Furlong\Documents\GitHub\Command-Patterns\Command Pattern\Command Pattern\MacroCommand.cpp(20,25): warning C4018:  '<': signed/unsigned mismatch
   Command Pattern.vcxproj -> C:\Users\Quintin Furlong\Documents\GitHub\Command-Patterns\Command Pattern\Debug\Command Pattern.exe

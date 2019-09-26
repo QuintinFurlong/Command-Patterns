@@ -1,11 +1,11 @@
 #pragma once
 #include "Command.h"
-#include "MacroCommand.h"
 class InputHandler
 {
 public:
+	InputHandler() {};
 	void assignInput();
-	void handleInput();
+	Command* handleInput();
 private:
 	Command* buttonQ;
 	Command* buttonW;
@@ -13,5 +13,4 @@ private:
 	Command* buttonR;
 	Command* buttonT;
 	Command* buttonY;
-	MacroCommand macroCom;
 };

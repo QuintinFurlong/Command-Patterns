@@ -1,16 +1,15 @@
 #include <iostream>
 #include <Windows.h>
-#include "InputHandler.h"
+#include "MacroCommand.h"
 using namespace std;
 
 int main()
 {
-	InputHandler inputHandler;
-	inputHandler.assignInput();
+	MacroCommand macCom;
 	while (true)
 	{	
-
-		inputHandler.handleInput();
+		macCom.execute();
+		
 		//cout << getchar();
 		if (GetKeyState('Q') & 0x8000)
 		{
